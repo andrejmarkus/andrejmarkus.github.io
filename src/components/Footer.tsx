@@ -2,7 +2,7 @@ import { LuGithub, LuLinkedin, LuMail } from "react-icons/lu"
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal p-10 bg-base-200">
+    <footer className="footer footer-horizontal items-center p-10 bg-base-100">
         <aside className="grid-flow-col items-center">
             <p>Copyright © {new Date().getFullYear()} Andrej Markuš</p>
         </aside>

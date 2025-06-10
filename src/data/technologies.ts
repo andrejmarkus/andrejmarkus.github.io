@@ -1,26 +1,71 @@
 const technologies = [
     {
+        title: "Programming Languages",
+        items: [
+            {
+                name: "JavaScript",
+                icon: "javascript",
+                iconType: "plain",
+                colored: true
+            },
+            {
+                name: "TypeScript",
+                icon: "typescript",
+                iconType: "original",
+                colored: true
+            },
+            {
+                name: "C#",
+                icon: "csharp",
+                iconType: "plain",
+                colored: true
+            },
+            {
+                name: "C++",
+                icon: "cplusplus",
+                iconType: "plain",
+                colored: true
+            },
+            {
+                name: "Python",
+                icon: "python",
+                iconType: "plain",
+                colored: true
+            },
+            {
+                name: "Java",
+                icon: "java",
+                iconType: "plain",
+                colored: true
+            }
+        ]
+    },
+    {
         title: "Frontend",
         items: [
             {
                 name: "React",
                 icon: "react",
-                iconType: "original"
+                iconType: "original",
+                colored: true
             },
             {
                 name: "Svelte",
                 icon: "svelte",
-                iconType: "original"
+                iconType: "plain",
+                colored: true
             },
             {
                 name: "Next.js",
                 icon: "nextjs",
-                iconType: "original"
+                iconType: "plain",
+                colored: false
             },
             {
-                name: "Tailwind CSS",
-                icon: "tailwindcss",
-                iconType: "original"
+                name: "Blazor",
+                icon: "blazor",
+                iconType: "original",
+                colored: true
             }
         ]
     },
@@ -30,52 +75,20 @@ const technologies = [
             {
                 name: "Node.js",
                 icon: "nodejs",
-                iconType: "original"
+                iconType: "plain",
+                colored: true
             },
             {
                 name: "Express",
                 icon: "express",
-                iconType: "original"
+                iconType: "original",
+                colored: false
             },
             {
-                name: "Prisma",
-                icon: "prisma",
-                iconType: "original"
-            }
-        ]
-    },
-    {
-        title: "Programming Languages",
-        items: [
-            {
-                name: "JavaScript",
-                icon: "javascript",
-                iconType: "original"
-            },
-            {
-                name: "TypeScript",
-                icon: "typescript",
-                iconType: "original"
-            },
-            {
-                name: "C#",
-                icon: "csharp",
-                iconType: "original"
-            },
-            {
-                name: "C++",
-                icon: "cplusplus",
-                iconType: "original"
-            },
-            {
-                name: "Python",
-                icon: "python",
-                iconType: "original"
-            },
-            {
-                name: "Java",
-                icon: "java",
-                iconType: "original"
+                name: "Flask",
+                icon: "flask",
+                iconType: "plain",
+                colored: false
             }
         ]
     },
@@ -85,7 +98,8 @@ const technologies = [
             {
                 name: "Docker",
                 icon: "docker",
-                iconType: "original"
+                iconType: "plain",
+                colored: true
             }
         ]
     },
@@ -95,7 +109,8 @@ const technologies = [
             {
                 name: "Jest",
                 icon: "jest",
-                iconType: "plain"
+                iconType: "plain",
+                colored: true
             }
         ]
     },
@@ -105,17 +120,20 @@ const technologies = [
             {
                 name: "Git",
                 icon: "git",
-                iconType: "original"
+                iconType: "plain",
+                colored: true
             },
             {
                 name: "GitHub",
                 icon: "github",
-                iconType: "original-wordmark"
+                iconType: "original",
+                colored: false
             },
             {
                 name: "Postman",
                 icon: "postman",
-                iconType: "original"
+                iconType: "plain",
+                colored: true
             }
         ]
     }
