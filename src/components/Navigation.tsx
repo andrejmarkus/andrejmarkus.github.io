@@ -12,8 +12,8 @@ const Navigation = () => {
   };
 
   return (
-    <div className="sticky top-4 z-10 sm:mx-0 mx-4">
-      <nav className="navbar container mx-auto justify-center bg-base-200 rounded-2xl my-4 shadow-lg">
+    <div className="fixed w-full top-0 z-10 left-0 right-0">
+      <nav className="navbar bg-base-200 rounded-2xl my-2 lg:container max-w-[calc(100%-2rem)] mx-auto shadow-lg px-4">
         <div className="flex-1">
           <button onClick={() => handleScrollTo("0")} className="btn btn-ghost text-xl">Andrej Markuš</button>
         </div>

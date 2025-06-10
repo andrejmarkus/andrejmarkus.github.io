@@ -37,7 +37,7 @@ const MainHero = () => {
     });
 
   return (
-    <div id="home" className="hero h-[93vh] bg-base-100">
+    <div id="home" className="hero min-h-[93vh] bg-base-100 pt-20 sm:pt-0">
         <div className="hero-content w-full flex-col-reverse lg:flex-row">
             <img
             src="/coding.svg"
