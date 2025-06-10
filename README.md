@@ -26,13 +26,13 @@ My personal portfolio website built with React, TypeScript, and Vite. The site s
 2. Install dependencies:
 
 ```sh
-npm install
+pnpm install
 ```
 
 3. Start the development server:
 
 ```sh
-npm run dev
+pnpm dev
 ```
 
 ## Building for Production
@@ -40,7 +40,7 @@ npm run dev
 To create a production build:
 
 ```sh
-npm run build
+pnpm build
 ```
 
 ## Live Site
