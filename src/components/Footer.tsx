@@ -2,7 +2,7 @@ import { LuGithub, LuLinkedin, LuMail } from "react-icons/lu"
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal items-center p-10 bg-base-100">
+    <footer className="footer footer-horizontal container mx-auto items-center justify-between py-10 px-4 md:px-0 bg-base-100">
         <aside className="grid-flow-col items-center">
             <p>Copyright © {new Date().getFullYear()} Andrej Markuš</p>
         </aside>
