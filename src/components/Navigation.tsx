@@ -32,7 +32,7 @@ const Navigation = () => {
               />
             )}
           </button>
-          <div className={`absolute right-0 mt-4  ${menuOpen ? "block" : "hidden"}`}>
+          <div className={`absolute right-4 mt-4  ${menuOpen ? "block" : "hidden"}`}>
             <ul className="menu bg-base-200 rounded-2xl gap-3">
               {sections.map((section) => (
                 <li key={section.name}>
