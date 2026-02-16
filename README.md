@@ -1,56 +1,93 @@
-# Personal Portfolio - Andrej Markuš
+# 🚀 Personal Portfolio | Andrej Markuš
 
-My personal portfolio website built with React, TypeScript, and Vite. The site showcases my projects, skills, and experience as a Full Stack Developer.
+[![Status](https://img.shields.io/badge/Status-Live-success.svg)](https://andrejmarkus.github.io)
+[![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20TS%20%7C%20Tailwind%20%7C%20GSAP-blue.svg)](https://github.com/andrejmarkus/portfolio)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Technologies Used
+Welcome to the source code of my personal portfolio. This project is a modern, high-performance web application designed to showcase my journey as a Full Stack Developer, my technical skills, and the projects I've built along the way.
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- DaisyUI
-- GSAP for animations
+---
 
-## Features
+## 👨‍💻 About Me
 
-- Responsive design
-- Project showcase
-- Skills and technologies overview
-- About me section
-- Contact information
-- Smooth scrolling and animations
+I'm Andrej Markuš, a Computer Science and Management student at the **University of Žilina**. I am passionate about building robust, scalable, and user-centric web applications. My goal is to master the full depth of the modern web stack, from intuitive front-end interfaces to efficient back-end systems.
 
-## Running Locally
+## ✨ Key Features
 
-1. Clone the repository
-2. Install dependencies:
+- **Performance First**: Built with **Vite 6** and **React 19** for near-instant load times and optimal runtime performance.
+- **Dynamic Animations**: Leverages **GSAP** (GreenSock Animation Platform) for smooth, cinematic transitions and scroll-triggered effects.
+- **Modern Styling**: Styled with **Tailwind CSS 4** and **DaisyUI 5**, ensuring a clean, responsive, and accessible UI.
+- **Type Safety**: Entirely written in **TypeScript** for robust development and maintainability.
+- **Project Showcase**: A curated gallery of my work, including blockchain trackers, management systems, and AI-driven applications.
 
-```sh
-pnpm install
+## 🛠️ Developed With
+
+### Frontend Core
+
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 6](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **State/Logic Hooks**: [usehooks-ts](https://usehooks-ts.com/)
+
+### Design & Motion
+
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **UI Components**: [DaisyUI 5](https://daisyui.com/)
+- **Animations**: [GSAP](https://gsap.com/) & [@gsap/react](https://gsap.com/resources/react/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) & [DevIcons](https://devicons.github.io/devicon/)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (Latest LTS)
+- [pnpm](https://pnpm.io/) (Highly recommended)
+
+### Installation & Development
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/andrejmarkus/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   pnpm dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   pnpm build
+   ```
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/   # Modular UI components (Hero, Projects, About, etc.)
+├── data/         # Content definitions (projects, skills, personal info)
+├── lib/          # Utilities and shared animation logic (GSAP setups)
+├── App.tsx       # Main application layout
+└── main.tsx      # Entry point
 ```
 
-3. Start the development server:
+## 📬 Connectivity
 
-```sh
-pnpm dev
-```
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
 
-## Building for Production
+- **Email**: [andrejmarkus274@gmail.com](mailto:andrejmarkus274@gmail.com)
+- **LinkedIn**: [Andrej Markuš](https://www.linkedin.com/in/andrej-marku%C5%A1-376439349/)
+- **GitHub**: [@andrejmarkus](https://github.com/andrejmarkus)
 
-To create a production build:
+---
 
-```sh
-pnpm build
-```
-
-## Live Site
-
-Visit my portfolio at [https://andrejmarkus.github.io](https://andrejmarkus.github.io)
-
-## Contact
-
-Feel free to reach out to me:
-
-- Email: andrejmarkus274@gmail.com
-- GitHub: [@andrejmarkus](https://github.com/andrejmarkus)
-- LinkedIn: [Andrej Markuš](https://www.linkedin.com/in/andrej-marku%C5%A1-376439349/)
+Developed with ❤️ by Andrej Markuš
