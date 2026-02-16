@@ -1,9 +1,9 @@
 const sections: { name: string, link: string }[] = [
     {
         name: 'Home',
-        link: '0'
+        link: '#home'
     },
-{
+    {
         name: 'About',
         link: '#about'
     },

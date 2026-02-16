@@ -5,40 +5,30 @@ import gsap from 'gsap'
 
 const AboutList = () => {
   useGSAP(() => {
-    gsap.from("#about-content", {
+    gsap.from(".about-item-wrapper", {
       scrollTrigger: {
         trigger: "#about",
-        start: "top center",
-        toggleActions: "play none none reverse"
+        start: "top 70%",
       },
-      duration: 1,
+      duration: 0.8,
       opacity: 0,
-      y: -50,
+      y: 30,
+      stagger: 0.2,
       ease: "power3.out"
-    })
-    gsap.from("#about img", {
-      scrollTrigger: {
-        trigger: "#about",
-        start: "top center",
-        toggleActions: "play none none reverse"
-      },
-      duration: 1,
-      opacity: 0,
-      x: -50,
-      ease: "power3.out",
     })
   })
 
   return (
-    <>
+    <div className="flex flex-col gap-6">
         {aboutContent.map((item) => (
-            <AboutItem 
-                key={item.title}
-                title={item.title}
-                content={item.content}
-            />
+            <div key={item.title} className="about-item-wrapper">
+                <AboutItem 
+                    title={item.title}
+                    content={item.content}
+                />
+            </div>
         ))}
-    </>
+    </div>
   )
 }
 
