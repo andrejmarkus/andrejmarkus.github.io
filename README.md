@@ -18,7 +18,8 @@ I'm Andrej Markuš, a Computer Science and Management student at the **Universit
 - **Dynamic Animations**: Leverages **GSAP** (GreenSock Animation Platform) for smooth, cinematic transitions and scroll-triggered effects.
 - **Modern Styling**: Styled with **Tailwind CSS 4** and **DaisyUI 5**, ensuring a clean, responsive, and accessible UI.
 - **Type Safety**: Entirely written in **TypeScript** for robust development and maintainability.
-- **Project Showcase**: A curated gallery of my work, including blockchain trackers, management systems, and AI-driven applications.
+- **Live Project Sync**: Integration with the **GitHub API** to dynamically showcase live repositories, complete with stars, topics, and real-time metadata.
+- **Smart Prioritization**: Custom scoring algorithm that automatically highlights Web Development and Full-Stack projects at the top of the gallery.
 
 ## 🛠️ Developed With
 
@@ -27,6 +28,7 @@ I'm Andrej Markuš, a Computer Science and Management student at the **Universit
 - **Framework**: [React 19](https://react.dev/)
 - **Build Tool**: [Vite 6](https://vitejs.dev/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Data Fetching**: [GitHub REST API](https://docs.github.com/en/rest)
 - **State/Logic Hooks**: [usehooks-ts](https://usehooks-ts.com/)
 
 ### Design & Motion
@@ -74,7 +76,8 @@ I'm Andrej Markuš, a Computer Science and Management student at the **Universit
 ```text
 src/
 ├── components/   # Modular UI components (Hero, Projects, About, etc.)
-├── data/         # Content definitions (projects, skills, personal info)
+├── data/         # Dynamic content overrides and section titles
+├── hooks/        # Custom React hooks (GitHub API integration)
 ├── lib/          # Utilities and shared animation logic (GSAP setups)
 ├── App.tsx       # Main application layout
 └── main.tsx      # Entry point

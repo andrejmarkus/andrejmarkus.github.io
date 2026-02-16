@@ -84,6 +84,18 @@ const ProjectsSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
                     <ProjectsList />
                 </div>
+
+                <div className="mt-24 flex justify-center">
+                    <a 
+                        href="https://github.com/andrejmarkus?tab=repositories" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="group relative inline-flex items-center gap-4 rounded-full border border-white/10 bg-neutral-900 px-10 py-5 text-sm font-black uppercase tracking-[0.3em] text-white transition-all hover:border-primary/50 hover:bg-neutral-800"
+                    >
+                        View Full Archive
+                        <span className="text-primary transition-transform group-hover:translate-x-2">→</span>
+                    </a>
+                </div>
             </div>
         </section>
     )
