@@ -1,5 +1,5 @@
 import { LuExternalLink, LuGithub, LuStar } from "react-icons/lu"
-import { SiTypescript, SiJavascript, SiPython, SiCplusplus, SiReact } from "react-icons/si"
+import { SiTypescript, SiJavascript, SiPython, SiCplusplus } from "react-icons/si"
 
 const LanguageIcon = ({ language }: { language?: string }) => {
   switch (language?.toLowerCase()) {
