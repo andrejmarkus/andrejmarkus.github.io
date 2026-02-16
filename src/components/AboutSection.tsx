@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 import aboutContent from "../data/about"
 import { useRef } from "react"
 import { FiMapPin, FiTarget, FiZap, FiBookOpen, FiStar, FiChevronRight } from "react-icons/fi"
+import portraitImg from "../assets/portrait.jpeg"
 
 const AboutSection = () => {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -88,7 +89,7 @@ const AboutSection = () => {
                     {/* Portrait Card */}
                     <div className="md:col-span-4 md:row-span-3 bento-card group relative overflow-hidden rounded-[2.5rem] bg-neutral-900 border border-white/5 min-h-[500px]">
                         <img
-                            src="/portrait.jpeg"
+                            src={portraitImg}
                             alt="Portrait"
                             className="h-full w-full object-cover transition-all duration-1000 group-hover:scale-110 saturate-0 group-hover:saturate-100"
                         />

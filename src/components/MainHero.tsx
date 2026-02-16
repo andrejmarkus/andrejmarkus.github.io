@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react"
 import { handleScrollTo } from "../lib/animations"
 import gsap from "gsap"
+import codingSvg from "../assets/coding.svg"
 
 const MainHero = () => {
     useGSAP(() => {
@@ -100,7 +101,7 @@ const MainHero = () => {
                 <div className="hero-visual relative hidden lg:block">
                     <div className="relative z-10 animate-float">
                         <img
-                            src="/coding.svg"
+                            src={codingSvg}
                             alt="Visual"
                             className="w-full max-w-lg drop-shadow-[0_0_50px_rgba(34,197,94,0.3)] transition-transform"
                             loading="eager"
