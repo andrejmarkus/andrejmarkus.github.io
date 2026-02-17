@@ -21,7 +21,7 @@ export const useGithubProjects = (username: string) => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/${username}/repos?sort=stars&direction=desc&per_page=100`);
+        const response = await fetch(`https://api.github.com/users/${username}/repos?sort=stars&direction=desc&per_page=40`);
         if (!response.ok) throw new Error('Failed to fetch repositories');
         const data = await response.json();
         

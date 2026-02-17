@@ -23,6 +23,8 @@ const ProjectItem = ({title, description, image, githubLink, link, stars, langua
           src={image} 
           alt={title} 
           className="h-full w-full object-cover transition-all duration-1000 grayscale-[0.2] group-hover:grayscale-0 group-hover:scale-105" 
+          loading="lazy"
+          decoding="async"
           onError={(e) => {
               // Fallback if the service fails
               (e.target as HTMLImageElement).src = `https://generative-placeholders.vercel.app/api/deterministic/${title.length}?width=800&height=500&colors=10`;

@@ -34,14 +34,21 @@ const MainHero = () => {
             ease: "expo.out"
           }, "-=1");
 
-        // Mouse move effect for the hero visual
+        // Mouse move effect for the hero visual - skip on mobile
         const visual = document.querySelector(".hero-visual");
-        globalThis.addEventListener("mousemove", (e) => {
-            const { clientX, clientY } = e;
-            const x = (clientX / window.innerWidth - 0.5) * 20;
-            const y = (clientY / window.innerHeight - 0.5) * 20;
-            gsap.to(visual, { x, y, duration: 1, ease: "power2.out" });
-        });
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        
+        if (!isTouchDevice && visual) {
+            const handleMouseMove = (e: MouseEvent) => {
+                const { clientX, clientY } = e;
+                const x = (clientX / window.innerWidth - 0.5) * 20;
+                const y = (clientY / window.innerHeight - 0.5) * 20;
+                gsap.to(visual, { x, y, duration: 1, ease: "power2.out" });
+            };
+            
+            globalThis.addEventListener("mousemove", handleMouseMove);
+            return () => globalThis.removeEventListener("mousemove", handleMouseMove);
+        }
     });
 
     const nameChars = "Andrej Markuš".split("");

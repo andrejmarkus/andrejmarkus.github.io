@@ -92,6 +92,8 @@ const AboutSection = () => {
                             src={portraitImg}
                             alt="Portrait"
                             className="h-full w-full object-cover transition-all duration-1000 group-hover:scale-110 saturate-0 group-hover:saturate-100"
+                            loading="lazy"
+                            decoding="async"
                         />
                         <div className="absolute inset-x-0 bottom-0 p-10 bg-linear-to-t from-black via-black/90 to-transparent z-20">
                             <h4 className="text-2xl font-black text-white leading-tight uppercase tracking-tight">
