@@ -37,6 +37,12 @@ const technologies = [
                 icon: "java",
                 iconType: "plain",
                 colored: true
+            },
+            {
+                name: "Rust",
+                icon: "rust",
+                iconType: "original",
+                colored: false
             }
         ]
     },
@@ -47,6 +53,12 @@ const technologies = [
                 name: "React",
                 icon: "react",
                 iconType: "original",
+                colored: true
+            },
+            {
+                name: "Angular",
+                icon: "angular",
+                iconType: "plain",
                 colored: true
             },
             {
@@ -89,6 +101,18 @@ const technologies = [
                 icon: "flask",
                 iconType: "plain",
                 colored: false
+            },
+            {
+                name: "Spring Boot",
+                icon: "spring",
+                iconType: "plain",
+                colored: true
+            },
+            {
+                name: "ASP.NET Core",
+                icon: "dotnetcore",
+                iconType: "plain",
+                colored: true
             }
         ]
     },
@@ -98,6 +122,12 @@ const technologies = [
             {
                 name: "Docker",
                 icon: "docker",
+                iconType: "plain",
+                colored: true
+            },
+            {
+                name: "GitHub Actions",
+                icon: "githubactions",
                 iconType: "plain",
                 colored: true
             }
@@ -111,11 +141,23 @@ const technologies = [
                 icon: "jest",
                 iconType: "plain",
                 colored: true
+            },
+            {
+                name: "JUnit",
+                icon: "junit",
+                iconType: "plain-wordmark",
+                colored: true
+            },
+            {
+                name: "xUnit",
+                icon: "dot-net",
+                iconType: "plain",
+                colored: true
             }
         ]
     },
     {
-        title: "Other",
+        title: "Others",
         items: [
             {
                 name: "Git",
@@ -128,6 +170,12 @@ const technologies = [
                 icon: "github",
                 iconType: "original",
                 colored: false
+            },
+            {
+                name: "GitLab",
+                icon: "gitlab",
+                iconType: "plain",
+                colored: true
             },
             {
                 name: "Postman",

@@ -46,8 +46,8 @@ const MainHero = () => {
                 gsap.to(visual, { x, y, duration: 1, ease: "power2.out" });
             };
             
-            globalThis.addEventListener("mousemove", handleMouseMove);
-            return () => globalThis.removeEventListener("mousemove", handleMouseMove);
+            window.addEventListener("mousemove", handleMouseMove);
+            return () => window.removeEventListener("mousemove", handleMouseMove);
         }
     });
 
